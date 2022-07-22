@@ -10,12 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4ff3364-7e0a-4824-a1d1-31ab8858192a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FirstMaven_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstMaven_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstMaven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/mandacaru/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/mandacaru/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufc/mandacaru/config/ThymeleafConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufc/mandacaru/config/ThymeleafConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/FirstMaven-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/FirstMaven-0.0.1-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/FirstMaven-0.0.1-SNAPSHOT/WEB-INF/classes/br/ufc/mandacaru/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FirstMaven-0.0.1-SNAPSHOT/WEB-INF/classes/br/ufc/mandacaru/Hello.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/ufc/mandacaru/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufc/mandacaru/Hello.class" afterDir="false" />
@@ -94,7 +90,7 @@
       <workItem from="1658448559536" duration="752000" />
       <workItem from="1658449905837" duration="22000" />
       <workItem from="1658450209090" duration="2605000" />
-      <workItem from="1658503655325" duration="7233000" />
+      <workItem from="1658503655325" duration="7426000" />
     </task>
     <servers />
   </component>
