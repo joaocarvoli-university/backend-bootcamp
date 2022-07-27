@@ -1,10 +1,5 @@
-import dao.ConnectionFactory;
-import dao.ProductDAO;
 import dao.ProductHibernateDAO;
-import dao.ProductJDBCDAO;
 import entities.Product;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,8 +16,8 @@ public class Main {
 
         Product prod01 = new Product(0, "liquidificador", 190);
         ProductHibernateDAO productDAO = new ProductHibernateDAO();
-        //productDAO.save(prod01);
-        productDAO.delete(2);
+        productDAO.save(prod01);
+        //productDAO.delete(2);
         for(Product prod: productDAO.findAll()){
             System.out.println(prod);
         }
