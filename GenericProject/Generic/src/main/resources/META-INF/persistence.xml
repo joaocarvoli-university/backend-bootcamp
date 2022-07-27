@@ -4,13 +4,13 @@
      http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
              version="2.0">
 
-    <persistence-unit name="mandacaru">
+    <persistence-unit name="mandacaru4">
         <!-- provedor/implementacao do JPA -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <!-- Coloque todas as entidades aqui -->
-        <class>entities.Product</class>
         <properties>
             <!-- dados da conexao -->
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="org.postgresql.Driver"/>
             <property name="jakarta.persistence.jdbc.url"
                       value="jdbc:postgresql://localhost:5432/mandacaru" />
             <property name="jakarta.persistence.jdbc.user"
