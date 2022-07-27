@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "711e4713-f068-46cf-a259-19b660c616fa",
+		"name": "Products (Mandacaru) - Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16987712"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Sanduicheira",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "133.9",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/genericapp/api/products",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"genericapp",
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product per id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/genericapp/api/products/1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"genericapp",
+						"api",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product per name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/genericapp/api/products/search?name=liquidificador",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"genericapp",
+						"api",
+						"products",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "liquidificador"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Sanduicheira",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "133.9",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/genericapp/api/products",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"genericapp",
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Sanduicheira",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "6",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "150",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/genericapp/api/products/6",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"genericapp",
+						"api",
+						"products",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Sanduicheira",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "150",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/genericapp/api/products/8",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"genericapp",
+						"api",
+						"products",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
