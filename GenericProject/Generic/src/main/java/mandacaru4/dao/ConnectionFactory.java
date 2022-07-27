@@ -1,4 +1,4 @@
-package dao;
+package mandacaru4.dao;
 
 import java.io.InputStream;
 import java.sql.Connection;

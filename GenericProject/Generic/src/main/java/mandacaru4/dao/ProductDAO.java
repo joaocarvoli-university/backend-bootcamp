@@ -1,5 +1,5 @@
-package dao;
-import entities.Product;
+package mandacaru4.dao;
+import mandacaru4.entities.Product;
 import java.util.ArrayList;
 
 public interface ProductDAO {

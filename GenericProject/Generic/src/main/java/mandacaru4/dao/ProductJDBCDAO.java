@@ -1,6 +1,6 @@
-package dao;
+package mandacaru4.dao;
 
-import entities.Product;
+import mandacaru4.entities.Product;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

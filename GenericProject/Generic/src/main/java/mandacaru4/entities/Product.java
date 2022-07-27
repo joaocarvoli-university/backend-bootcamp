@@ -1,4 +1,4 @@
-package entities;
+package mandacaru4.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

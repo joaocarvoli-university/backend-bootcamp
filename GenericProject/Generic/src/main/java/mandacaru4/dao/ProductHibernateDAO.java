@@ -1,6 +1,6 @@
-package dao;
+package mandacaru4.dao;
 
-import entities.Product;
+import mandacaru4.entities.Product;
 import java.util.ArrayList;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 
 public class ProductHibernateDAO implements ProductDAO {
 
-    static EntityManagerFactory sessionFactory = Persistence.createEntityManagerFactory("mandacaru");
+    static EntityManagerFactory sessionFactory = Persistence.createEntityManagerFactory("mandacaru4");
     static EntityManager entityManager;
 
     @Override
@@ -61,7 +61,7 @@ public class ProductHibernateDAO implements ProductDAO {
 
         try {
             product = entityManager.createQuery("from products where name=?1", Product.class).setParameter(1, str)
-                    .getSingleResult();
+                    .setMaxResults(1).getSingleResult();
         } catch (Exception e) {
             return null;
         }

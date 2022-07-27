@@ -1,5 +1,7 @@
-import dao.ProductHibernateDAO;
-import entities.Product;
+package mandacaru4;
+
+import mandacaru4.dao.ProductHibernateDAO;
+import mandacaru4.entities.Product;
 
 public class Main {
     public static void main(String[] args) {
