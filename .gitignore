@@ -1,8 +1,10 @@
 # Compiled class file
 *.class
-
+*.properties
 # Log file
 *.log
+/src/test
+target
 
 # BlueJ files
 *.ctxt
